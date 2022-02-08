@@ -60,6 +60,7 @@ const App: () => Node = () => {
     backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
   };
   console.log(NativeModules);
+  console.log(NativeModules.CalendarModule);
 
   return (
     <SafeAreaView style={backgroundStyle}>
